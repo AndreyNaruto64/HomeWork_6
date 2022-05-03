@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     private String name;
 
 
@@ -19,17 +19,13 @@ public class Animal {
 
     }
 
-    public void swim(int a) {
+    public abstract void swim(int a);
 
-    }
-
-    public void run(int b) {
-
-    }
+    public abstract void run(int b);
 
 //    public void sumAnimal(int c){
 //        c++;
-//        System.out.println("Колличество животных: "+ c);
+//        System.out.println("ГЉГ®Г«Г«ГЁГ·ГҐГ±ГІГўГ® Г¦ГЁГўГ®ГІГ­Г»Гµ: "+ c);
 //
 //    }
 
